@@ -1,0 +1,264 @@
+*
+	box-sizing: border-box
+	padding: 0px
+	margin: 0px
+html,body
+	height: 100%
+
+body
+	background-color: $blanco
+	font-family: $font-family
+	font-size: $font-size
+
+.contok
+	width: 100%
+.contenedor
+	width: 100%
+	max-width: 1100px
+	margin: auto
+	overflow: hidden
+.noticias
+	.titulo-single
+	.entradas-noticias
+		padding: 20px 0px
+		border-bottom: 1px solid $verde
+		margin-bottom: 20px
+		.fecha
+			font-size: 14px
+			padding-bottom: 7px
+		.contenido
+			color: #5a5a5a
+			font-weight: 600
+			font-size: 1em
+			line-height: 30px
+			a
+				display: block
+				color: $verde
+				margin-bottom: 10px
+				font-weight: bold
+				&:hover
+					color: $celeste
+
+			.thumb
+				display: block
+				padding: 20px
+				margin-top: 10px
+				img
+					background: rgba($verde, 0.5)
+					&:hover
+						background: rgba($celeste, 0.2)
+						transition: 0.5s ease
+						-o-transition: 0.5s ease
+						-webkit-transition: 0.5s ease
+			.title
+				a
+					display: block
+					color: $verde
+					margin-bottom: 10px
+					font-weight: bold
+					&:hover
+						text-decoration: underline
+						color: $celeste
+
+.single
+	box-sizing: border-box
+	padding: 15px
+	width: 100%
+	.aside
+		.entradas-general
+			list-style: none
+			width: 100%
+			.widget_categories
+				ul
+					list-style: none
+					li
+						list-style: none
+						color: $celeste
+						a
+							color: $verde
+							&:hover
+								color: $celeste
+
+			.widget_search
+				box-sizing: border-box
+				display: flex
+				flex-flow: row wrap
+				justify-content: center
+				width: 100%
+				input[type="text"]
+					border-radius: 2px
+					border: 1px solid $verde
+					padding: 5px
+					color: $grisoscuro
+					width: 60%
+					&:hover
+						border: 1px solid $celeste
+						transition: 0.5s ease
+				input[type="submit"]
+					box-sizing: border-box
+					background-color: $verde
+					padding: 7px 20px
+					color: $blanco
+					border-radius: 3px
+					border: none
+					text-align: center
+					float: right
+					&:hover
+						background-color: $celeste
+						transition: 0.5s ease
+			.widget_recent_entries
+				h2
+					color: $grisoscuro
+				ul
+					paddin-top: 10px
+					list-style: none
+					li
+						padding-bottom: 3px
+						a
+							color: $celeste
+							text-decoration: underline
+							&:hover
+								color: $verde
+	.noticias
+		padding: 10px
+		address
+			padding: 10px 10px 10px 0px
+			color: $celeste
+			a
+				color: $verde
+				&:hover
+					color: $celeste
+		input[type="button"],
+		input[type="submit"]
+			clear: both
+			margin: auto
+			color: #fff
+			border: none
+			border-radius: 3px
+			padding: 15px 40px
+			cursor: pointer
+			background-color: $verde
+			&:hover
+				background: #387bea
+		input[type="text"],
+		input[type="email"],
+		textarea
+			&:focus
+				border: 2px solid #1d9963
+		input[type="text"],
+		input[type="email"],
+		textarea
+			border: 2px solid #cecece
+			border-radius: 5px
+			padding: 15px 20px
+			font-size: 20px
+			color: #a4a4a4
+		.descripcion_categoria
+			list-style: none
+			box-sizing:border-box
+			padding: 0px
+			margin: 0px
+			color: $verde
+			display: flex
+			flex-flow: row wrap
+			justify-content: space-between
+			align-content: center
+			align-items: center
+			font-family: 'Oswald', sans-serif
+			font-size: 1em
+			.fecha
+				margin-right: 10px
+				.icon-calendar
+					display: inline-block
+					color: $grisoscuro
+				.date
+					display: inline-block
+			.lista
+				display: flex
+				flex-flow: row wrap
+				align-items: center
+				.icon-list
+					display: inline-block
+					vertical-align: middle
+					color: $grisoscuro
+				.cat
+					display: inline-block
+					vertical-align: middle
+					padding: 0px
+					margin: 0px
+					color: $verde
+					a
+						color: $verde
+						&:hover
+							text-decoration: underline
+							color: $celeste
+					.post-categories
+						list-style: none
+						display: flex
+						flex-flow: row wrap
+						margin: 0px
+						padding: 0px
+						li
+							padding: 0px 5px
+							margin: 0px
+							a
+								color: $verde
+								&:hover
+									text-decoration: underline
+									color: $celeste
+			span
+				padding: 5px
+				width: auto
+.noticias
+	.nf-form-title
+		display: block
+		padding: 10px 0
+		h3
+			font-size: 34px
+			line-height: 34px
+			margin-bottom: 40px
+			font-weight: 300
+			color: #1d9963
+			text-align: center
+	.mapeo
+		padding-bottom: 7px
+		border-bottom: 1px solid $celeste
+		span
+			padding: 5px
+			color: $grisoscuro
+		a
+			display: inline-block
+			color: $celeste
+			&:hover
+				color: $verde
+	h3
+		color: $celeste
+	h1
+		color: $verde
+	h2
+		color: $celeste
+
+	.total
+		padding-top: 20px
+		border-top: 1px solid $grisclaro
+		margin-top: 5px
+		img
+			width: 100%
+			height: auto
+		h3
+			font-size: 34px
+			line-height: 34px
+			margin-bottom: 40px
+			font-weight: 300
+			color: #1d9963
+			text-align: center
+		h1
+			display: none
+/*=======================*/
+.instaimg
+	img
+		margin-bottom: 30px
+.instaimg img:hover
+	opacity: 0.8
+	-moz-opacity: 0.8
+	-webkit-opacity: 0.8
