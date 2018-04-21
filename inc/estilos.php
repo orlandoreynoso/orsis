@@ -6,7 +6,7 @@ function estilos_template(){
   wp_register_style('fonts_google', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,600,700', array(), '1.0.0');
   wp_register_style('bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', array(), '4.0.0');
 	wp_register_style('style', get_template_directory_uri().'/style.css', array('bootstrap'), '1.0');
-	wp_register_style('estiloweb', get_template_directory_uri().'/css/estiloweb.css', array('bootstrap'), '7.0');
+	wp_register_style('estiloweb', get_template_directory_uri().'/css/estilo.css', array('bootstrap'), '7.0');
 	wp_register_style('fontawesome', get_template_directory_uri().'/css/font-awesome.min.css', array('bootstrap'), '4.7.0');
 	wp_register_style('animate', get_template_directory_uri().'/css/animate.css', array('bootstrap'), '4.7.0');
   wp_register_style('lightbox', get_template_directory_uri().'/css/lightbox.css', array(), '2.9.0');
